@@ -43,7 +43,7 @@ const Navbar = () => {
 				>
 					<Link href="https://www.linkedin.com/in/kunal-saxena-67a369194" target="_blank" rel="noopener noreferrer">
 						<Image
-							src="/logo.png"
+							src="/kunal.png"
 							width={80}
 							height={80}
 							alt="logo"
