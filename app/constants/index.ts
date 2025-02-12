@@ -186,116 +186,116 @@ const projects :{
 	deploy_link: string;
 	platform: "Netlify" | "Vercel" | "Figma" | "Wordpress" | "Web"
 }[] = [
-	{
-		name: "Project 1",
-		description:
-			"A Designed and developed a visually appealing and user-friendly portfolio website using WordPress.",
-		tags: [
-			{
-				name: "wordpress",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "google-translate",
-				color: "green-text-gradient",
-			},
-		],
-		image: "/projectimg/avm.webp",
-		platform: "Wordpress",
-		deploy_link: "",
-	},
-	{
-		name: "Project 2",
-		description:
-			" Designed and developed a visually appealing and user-friendly portfolio website using Next.JS.",
-		tags: [
-			{
-				name: "next",
-				color: "red-text-gradient",
-			},
-			{
-				name: "Next UI",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "tailwind",
-				color: "blue-text-gradient",
-			},
-		],
-		image: "/projectimg/sparkbright.png",
-		source_code_link: "",
-		platform: "Web",
-		deploy_link: "",
-	},
-	{
-		name: "Project 3",
-		description:
-			"A responsive Bank HomePage showcasing different features such as various payment gateways integration, easy money transfer, advanced security, etc. It has a beautiful interface made using Tailwind CSS and React",
-		tags: [
-			{
-				name: "next",
-				color: "green-text-gradient",
-			},
-			{
-				name: "tailwind",
-				color: "blue-text-gradient",
-			},
-		],
-		image: "/projectimg/hoobank.webp",
-		source_code_link: "",
-		platform: "Vercel",
-		deploy_link: "",
-	},
-	{
-		name: "Project 4",
-		description:
-			" Designed and developed a visually appealing and user-friendly Data Analytics Dashboard using MERN",
-		tags: [
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "materialui",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "MongoDB",
-				color: "green-text-gradient",
-			},
-			{
-				name: "Express",
-				color: "pink-text-gradient",
-			},
-		],
-		image: "/projectimg/mern.png",
-		source_code_link: "",
-		platform: "Web",
-		deploy_link: "",
-	},
-	{
-		name: "Project 5",
-		description:
-			"A Modern UI/UX Landing Page using Framer Motion and TailwindCSS with a feel and looks of Web 3.0",
-		tags: [
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "tailwind",
-				color: "green-text-gradient",
-			},
-			{
-				name: "framer-motion",
-				color: "orange-text-gradient",
-			},
-		],
-		image: "/projectimg/metaverse.png",
-		source_code_link: "",
-		platform: "Vercel",
-		deploy_link: "",
-	},
+	// {
+	// 	name: "Project 1",
+	// 	description:
+	// 		"A Designed and developed a visually appealing and user-friendly portfolio website using WordPress.",
+	// 	tags: [
+	// 		{
+	// 			name: "wordpress",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "google-translate",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 	],
+	// 	image: "/projectimg/avm.webp",
+	// 	platform: "Wordpress",
+	// 	deploy_link: "",
+	// },
+	// {
+	// 	name: "Project 2",
+	// 	description:
+	// 		" Designed and developed a visually appealing and user-friendly portfolio website using Next.JS.",
+	// 	tags: [
+	// 		{
+	// 			name: "next",
+	// 			color: "red-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "Next UI",
+	// 			color: "orange-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "tailwind",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 	],
+	// 	image: "/projectimg/sparkbright.png",
+	// 	source_code_link: "",
+	// 	platform: "Web",
+	// 	deploy_link: "",
+	// },
+	// {
+	// 	name: "Project 3",
+	// 	description:
+	// 		"A responsive Bank HomePage showcasing different features such as various payment gateways integration, easy money transfer, advanced security, etc. It has a beautiful interface made using Tailwind CSS and React",
+	// 	tags: [
+	// 		{
+	// 			name: "next",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "tailwind",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 	],
+	// 	image: "/projectimg/hoobank.webp",
+	// 	source_code_link: "",
+	// 	platform: "Vercel",
+	// 	deploy_link: "",
+	// },
+	// {
+	// 	name: "Project 4",
+	// 	description:
+	// 		" Designed and developed a visually appealing and user-friendly Data Analytics Dashboard using MERN",
+	// 	tags: [
+	// 		{
+	// 			name: "react",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "materialui",
+	// 			color: "orange-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "MongoDB",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "Express",
+	// 			color: "pink-text-gradient",
+	// 		},
+	// 	],
+	// 	image: "/projectimg/mern.png",
+	// 	source_code_link: "",
+	// 	platform: "Web",
+	// 	deploy_link: "",
+	// },
+	// {
+	// 	name: "Project 5",
+	// 	description:
+	// 		"A Modern UI/UX Landing Page using Framer Motion and TailwindCSS with a feel and looks of Web 3.0",
+	// 	tags: [
+	// 		{
+	// 			name: "react",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "tailwind",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "framer-motion",
+	// 			color: "orange-text-gradient",
+	// 		},
+	// 	],
+	// 	image: "/projectimg/metaverse.png",
+	// 	source_code_link: "",
+	// 	platform: "Vercel",
+	// 	deploy_link: "",
+	// },
 	{
 		name: "Stock Tracker",
 		description:
