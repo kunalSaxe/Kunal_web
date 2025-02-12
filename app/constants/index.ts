@@ -95,10 +95,11 @@ const experiences = [
 		iconBg: "#383E56",
 		date: "Apr 2021 - Jan 2022",
 		points: [
-			"Self-Taught Expertise: Gained proficiency in WordPress and UI/UX design through independent learning.",
-			"Collaborative Design: Worked closely with stakeholders to gather feedback and iterate on the portfolio website's interactivity.",
-			"Successful Website Development: Designed and developed a visually appealing and user-friendly portfolio website using WordPress.",
-			"Positive Business Impact: Contributed to +54.25% sales and overall business growth through the improved website."
+			"Interned at Numeric Infosystem, gaining hands-on experience in software development.",
+			"Learned the MERN tech stack (MongoDB, Express, React, Node.js), enhancing full-stack development skills.",
+			"Acquired proficiency in C++ and Python, strengthening programming fundamentals.",
+			"Worked on a live project, applying theoretical knowledge to real-world scenarios.",
+			"Developed problem-solving and collaborative skills through active participation in project development and team interactions."
 		],
 	},
 	{
@@ -108,9 +109,10 @@ const experiences = [
 		iconBg: "#E6DEDD",
 		date: "July 2023 - Present",
 		points: [
-			"Self-Taught Expertise: Gained proficiency in React.JS and Next.JS through independent learning.",
-			"Successful Website Development: Designed and developed a visually appealing and user-friendly portfolio website using Next.JS.",
-			"Collaborative Design: Worked closely with stakeholders to gather feedback and iterate on the portfolio website's interactivity."
+			"Successfully enhanced backend efficiency and maintainability in Mantra Traq by migrating to NestJS, optimizing database performance with MongoDB, and implementing secure authentication using Keycloak.",
+			"Facilitated seamless communication between microservices through API gateway integration and npm workspaces, driving scalability and streamlined development workflows.",
+			"Improved data processing efficiency and scalability in Validus by designing robust ETL pipelines with Pentaho and AWS Glue, automating report generation, and optimizing database performance.",
+			"Ensured data security, compliance, and quality across both projects by implementing encryption, secure API practices, and rigorous validation mechanisms, maintaining user trust and data integrity."
 		],
 	}
 	// {
@@ -185,7 +187,7 @@ const projects :{
 	platform: "Netlify" | "Vercel" | "Figma" | "Wordpress" | "Web"
 }[] = [
 	{
-		name: "A.V.M Auto Portfolio",
+		name: "Project 1",
 		description:
 			"A Designed and developed a visually appealing and user-friendly portfolio website using WordPress.",
 		tags: [
@@ -200,10 +202,10 @@ const projects :{
 		],
 		image: "/projectimg/avm.webp",
 		platform: "Wordpress",
-		deploy_link: "https://avmauto.in/",
+		deploy_link: "",
 	},
 	{
-		name: "Sparkbright Engineering Portfolio",
+		name: "Project 2",
 		description:
 			" Designed and developed a visually appealing and user-friendly portfolio website using Next.JS.",
 		tags: [
@@ -221,12 +223,12 @@ const projects :{
 			},
 		],
 		image: "/projectimg/sparkbright.png",
-		source_code_link: "https://github.com/omunite215/React-Admin-DashBoard",
+		source_code_link: "",
 		platform: "Web",
-		deploy_link: "https://sparkbright.in/",
+		deploy_link: "",
 	},
 	{
-		name: "HooBank",
+		name: "Project 3",
 		description:
 			"A responsive Bank HomePage showcasing different features such as various payment gateways integration, easy money transfer, advanced security, etc. It has a beautiful interface made using Tailwind CSS and React",
 		tags: [
@@ -240,12 +242,12 @@ const projects :{
 			},
 		],
 		image: "/projectimg/hoobank.webp",
-		source_code_link: "https://github.com/omunite215/hoobank",
+		source_code_link: "",
 		platform: "Vercel",
-		deploy_link: "https://hoobankbyom.netlify.app/",
+		deploy_link: "",
 	},
 	{
-		name: "MERN Dashboard",
+		name: "Project 4",
 		description:
 			" Designed and developed a visually appealing and user-friendly Data Analytics Dashboard using MERN",
 		tags: [
@@ -267,12 +269,12 @@ const projects :{
 			},
 		],
 		image: "/projectimg/mern.png",
-		source_code_link: "https://github.com/omunite215/Project_MERN-Dashboard",
+		source_code_link: "",
 		platform: "Web",
-		deploy_link: "https://admin-frontend-r705.onrender.com/",
+		deploy_link: "",
 	},
 	{
-		name: "Metaverse Web 3.0",
+		name: "Project 5",
 		description:
 			"A Modern UI/UX Landing Page using Framer Motion and TailwindCSS with a feel and looks of Web 3.0",
 		tags: [
@@ -290,14 +292,14 @@ const projects :{
 			},
 		],
 		image: "/projectimg/metaverse.png",
-		source_code_link: "https://github.com/omunite215/Project_Metaverse",
+		source_code_link: "",
 		platform: "Vercel",
-		deploy_link: "https://project-metaverse-beta.vercel.app/",
+		deploy_link: "",
 	},
 	{
-		name: "Issue Tracker",
+		name: "Stock Tracker",
 		description:
-			"A Next.JS Full Stack Issue Tracker made using Next.Js, ShadCN UI, Prisma, mySQL with latest features like Next.JS Server Components, and Serverless features.",
+			"I developed a stock management software using Next.js, NestJS, and Redis, ensuring efficient inventory tracking and real-time updates. The frontend was built with Next.js for a dynamic user experience, while NestJS powered the scalable backend. Redis was implemented for fast data caching, optimizing system performance and reliability.",
 		tags: [
 			{
 				name: "next",
@@ -308,18 +310,19 @@ const projects :{
 				color: "green-text-gradient",
 			},
 			{
-				name: "shadCN",
+				name: "nestjs",
 				color: "orange-text-gradient",
 			},
 			{
-				name: "mySQL",
+				name: "mongodb",
 				color: "green-text-gradient",
 			},
 		],
 		image: "/projectimg/issuetracker.png",
-		source_code_link: "https://github.com/omunite215/Project_Issue-Tracker",
+		// source_code_link: "https://github.com/omunite215/Project_Issue-Tracker",
 		platform: "Vercel",
-		deploy_link: "https://project-issue-tracker.vercel.app/",
+		deploy_link: "",
+		
 	},
 ];
 
