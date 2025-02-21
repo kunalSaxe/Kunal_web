@@ -186,24 +186,36 @@ const projects :{
 	deploy_link: string;
 	platform: "Netlify" | "Vercel" | "Figma" | "Wordpress" | "Web"
 }[] = [
-	// {
-	// 	name: "Project 1",
-	// 	description:
-	// 		"A Designed and developed a visually appealing and user-friendly portfolio website using WordPress.",
-	// 	tags: [
-	// 		{
-	// 			name: "wordpress",
-	// 			color: "blue-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "google-translate",
-	// 			color: "green-text-gradient",
-	// 		},
-	// 	],
-	// 	image: "/projectimg/avm.webp",
-	// 	platform: "Wordpress",
-	// 	deploy_link: "",
-	// },
+	{
+		name: "Dynamic QR Code Generator",
+		description:
+			"Dynamic QR Code Generator with User-Based Link Management",
+		tags: [
+			{
+				name: "next",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Nestjs",
+				color: "red-text-gradient",
+			},
+			{
+				name: "mongodb",
+				color: "green-text-gradient",
+			},
+			{
+				name: "render",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "netlify",
+				color: "orange-text-gradient",
+			},
+		],
+		image: "/projectimg/dynamic-qr.webp",
+		platform: "Web",
+		deploy_link: "https://curious-monstera-227c3d.netlify.app/",
+	},
 	// {
 	// 	name: "Project 2",
 	// 	description:
@@ -299,7 +311,7 @@ const projects :{
 	{
 		name: "Stock Tracker",
 		description:
-			"I developed a stock management software using Next.js, NestJS, and Redis, ensuring efficient inventory tracking and real-time updates. The frontend was built with Next.js for a dynamic user experience, while NestJS powered the scalable backend. Redis was implemented for fast data caching, optimizing system performance and reliability.",
+			"I developed a stock management software using Next.js, NestJS, and Redis, ensuring efficient inventory tracking and real-time updates.",
 		tags: [
 			{
 				name: "next",
